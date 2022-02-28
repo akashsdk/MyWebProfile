@@ -1,36 +1,95 @@
-body{
+body {
     margin: 0;
 }
-.maindive{
-    height: 608px;
-    width: 100%;
-    margin: auto;
+
+.maindive {
+    height          : 608px;
+    width           : 100%;
+    margin          : auto;
     background-color: rgb(5, 29, 29);
-    display: flex;
-}
-.bodydiv{
-    height: 608px;
-    width: 200px;
-    background-color: rgb(5, 29, 29);
-}
-.leftbodydiv{
-    height: 608px;
-    width: 60%;
-    background-color: rgb(21, 129, 129);
-}
-.h1{
-    color: aliceblue;
-    margin-left: 75px;
-    margin-top: 230px;
-}
-.h3{
-    color: aliceblue;
-    margin-left: 75px;
-}
-.email{
-    color: aliceblue;
-    margin-left: 50%;
-    margin-top: -40px;
-    font-style: italic;
+    display         : flex;
 }
 
+.bodydiv {
+    height          : 608px;
+    width           : 200px;
+    background-color: rgb(5, 29, 29);
+}
+
+.leftbodydiv {
+    height          : 608px;
+    width           : 60%;
+    background-color: rgb(21, 129, 129);
+}
+
+.h1 {
+    color      : aliceblue;
+    margin-left: 75px;
+    margin-top : 230px;
+}
+
+.h3 {
+    color      : aliceblue;
+    margin-left: 75px;
+}
+
+.email {
+    color      : aliceblue;
+    margin-left: 50%;
+    margin-top : -40px;
+    font-style : italic;
+}
+
+.bodydiva {
+    height          : 608px;
+    width           : 30%;
+    background-color: rgb(70, 216, 216);
+}
+
+.a {
+    height          : 300px;
+    width           : auto;
+    background-color: aliceblue;
+    display         : flex;
+}
+
+.b {
+    height          : 50px;
+    width           : 50px;
+    background-color: black;
+}
+
+.b1 {
+    height          : 50px;
+    width           : 50px;
+    background-color: rgb(185, 173, 173);
+}
+
+.container {
+    display: inline-block;
+    cursor : pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width           : 35px;
+    height          : 5px;
+    background-color: #333;
+    margin          : 6px 0;
+    transition      : 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform        : rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform        : rotate(45deg) translate(-8px, -8px);
+}
