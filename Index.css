@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.maindive{
+    height: 608px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(5, 29, 29);
+    display: flex;
+}
+.bodydiv{
+    height: 608px;
+    width: 200px;
+    background-color: rgb(5, 29, 29);
+}
+.leftbodydiv{
+    height: 608px;
+    width: 60%;
+    background-color: rgb(21, 129, 129);
+}
+.h1{
+    color: aliceblue;
+    margin-left: 75px;
+    margin-top: 230px;
+}
+.h3{
+    color: aliceblue;
+    margin-left: 75px;
+}
+.email{
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: -40px;
+    font-style: italic;
+}
+
