@@ -17,23 +17,52 @@
             <h3 class="h3">I am an award-winning full-stack web developer and UI/UX javascript specialist.<br>
                 Check out my articles, React and React Native UI components at the code laboratory.<br>
                 Feel free to take a look at my latest projects on the web portfolio page.<br>
-                Remotely available UTC−1 to UTC+8.</h3> <h3 class="email"> tasnim.s.akash@gmail.com</h3>
+                Remotely available UTC−1 to UTC+8.</h3>
+            <h3 class="email"> tasnim.s.akash@gmail.com</h3>
         </div>
         <div class="bodydiva">
             <div class="a">
                 <div class="b"></div>
                 <div class="b1">
-                    <div class="container" onclick="myFunction(this)">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                      </div>
-                      
-                      <script>
-                      function myFunction(x) {
-                        x.classList.toggle("change");
-                      }
-                      </script>
+                    
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                            <a>
+                                <div class="text">
+                                    <span>S</span>
+                                    <span>K</span>
+                                    <span>E</span>
+                                    <span>W</span>
+                                    <span></span>
+                                    <span>T</span>
+                                    <span>E</span>
+                                    <span>X</span>
+                                    <span>T</span>
+                                  </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <span  class="span" onclick="openNav()" id="akash">&#9776; </span>
+
+                    <script>
+                        function openNav() {
+                            document.getElementById("myNav").style.width = "100%";
+                            document.getElementById("akash").style.display="none";
+
+                        }
+
+                        function closeNav() {
+                            document.getElementById("myNav").style.width = "0%";
+                            document.getElementById("akash").style.display="block";
+
+                        }
+                    </script>
                 </div>
             </div>
         </div>
