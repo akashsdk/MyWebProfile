@@ -102,23 +102,26 @@ body {
 }
 
 .a {
-    height          : 50px;
-    width           : 50px;
+    height          : 400px;
+    width           : 400px;
     background-color: rgb(53, 142, 219);
+    clip-path: polygon(41% 0, 57% 0, 100% 55%, 100% 75%);
+
     
 }
 
 .b {
     height          : 300px;;
     width           : auto;
-    background-color: rgb(241, 97, 97);
     display: flex;
+    background-color: aqua;
 
 }
 
 .b1 {
     height          : 50px;
     width           : 50px;
+    margin-left: -50px;
     background-color: rgb(255, 255, 255);
 }
 
