@@ -111,7 +111,8 @@ body {
 .b {
     height          : 50px;
     width           : 50px;
-    background-color: black;
+    background-color: rgb(241, 97, 97);
+    clip-path: polygon(0 0, 31% 0, 100% 99%, 65% 100%);
 }
 
 .b1 {
@@ -128,5 +129,5 @@ body {
 .span:hover {
     font-size: 35px;
     cursor   : pointer;
-    color    : #4b3838;
+    color    : #000000;
 }
