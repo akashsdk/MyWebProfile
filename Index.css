@@ -105,7 +105,6 @@ body {
     height          : 50px;
     width           : 50px;
     background-color: rgb(53, 142, 219);
-    display         : flex;
     
 }
 
@@ -113,7 +112,6 @@ body {
     height          : 300px;;
     width           : auto;
     background-color: rgb(241, 97, 97);
-    clip-path: polygon(41% 0, 57% 0, 100% 55%, 100% 75%);
     display: flex;
 
 }
