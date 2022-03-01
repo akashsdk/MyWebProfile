@@ -106,13 +106,15 @@ body {
     width           : auto;
     background-color: aliceblue;
     display         : flex;
+    
 }
 
 .b {
-    height          : 50px;
-    width           : 50px;
+    height          : 300px;;
+    width           : auto;
     background-color: rgb(241, 97, 97);
-    clip-path: polygon(0 0, 31% 0, 100% 99%, 65% 100%);
+    clip-path: polygon(41% 0, 57% 0, 100% 55%, 100% 75%);
+    display: flex;
 }
 
 .b1 {
