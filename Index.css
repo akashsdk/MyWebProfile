@@ -133,15 +133,6 @@ body {
 .span:hover {
     font-size: 35px;
     cursor   : pointer;
-    color    : #0e0b0b;
-}
-.span {
-    font-size: 30px;
-    cursor   : pointer;
-}
-
-.span:hover {
-    font-size: 35px;
-    cursor   : pointer;
     color    : #000000;
 }
+
