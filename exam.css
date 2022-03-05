@@ -44,3 +44,14 @@
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.maindiv{
+    height:500px;
+    width :500px;
+    background-color:aqua;
+}
+.diva{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
