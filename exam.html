@@ -1,3 +1,4 @@
+<html>
 
 <head>
     <title>Email & Password Validation</title>
@@ -27,10 +28,10 @@
                 Password.style.border = '1px solid red';
                 return;
             }
-            while (email.length > i) {
+            while (email.length > i) { 
                 //all character valid or not
-                if (email[i] == '@' 
-                    (email[i] == '.' 
+                if (email[i] == '@' || email[i] == '-' ||
+                    email[i] == '.' || (email[i] >= 'a' && email[i] <= 'z') ||
                     (email[i] >= '0' && email[i] <= '9')) {
                     length++;
                 }
