@@ -53,44 +53,7 @@
     </script>
 
 
-    <script>
-        const submit = () => {
-            var Email = document.getElementById("email");
-            var Password = document.getElementById("password");
-            var email = Email.value;
-            var password = Password.value;
-            let i = 0;
-            let length = 0;
-            let isValid = false;
-            if (password.length < 6) {
-                alert("Password must be at least 6 characters");
-                Password.style.border = '1px solid red';
-                return;
-            }
-            while (email.length > i) { 
-                //all character valid or not
-                if (email[i] == '@' || email[i] == '-' ||
-                    email[i] == '.' || (email[i] >= 'a' && email[i] <= 'z') ||
-                    (email[i] >= '0' && email[i] <= '9')) {
-                    length++;
-                }
-                //check if there any @ sign or not
-                if (email[i] == '@' && email[i + 1] != '') {
-                    isValid = !isValid;
-                }
-                i++;
-            }
-            if (length == email.length && isValid) {
-                alert('Email and password is valid');
-                Email.style.border = '1px solid green';
-                Password.style.border = '1px solid green';
-            } else {
-                alert('Password is valid but email is invalid');
-                Email.style.border = '1px solid red';
-                Password.style.border = '1px solid green';
-            }
-        }
-    </script>
+    
 </body>
 
 
