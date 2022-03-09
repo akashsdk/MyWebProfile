@@ -2,6 +2,7 @@
     height: 250px;
     width: 250px;
     background-color: aqua;
+    margin-left: 200px;
 }
 
 .title{
@@ -26,3 +27,10 @@
     border: solid black 2px;
     width:100%
     }
+
+.maindiv{
+    height: auto;
+    margin: auto;
+    display: flex;
+    margin: 50px;
+}
