@@ -22,7 +22,7 @@ input[type="button"] {
 }
 
 input[type="text"] {
-    background-color: white;
+    background-color: rgb(255, 190, 190);
     border          : solid black 2px;
     width           : 100%
 }
