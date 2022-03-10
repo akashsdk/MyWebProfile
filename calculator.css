@@ -1,9 +1,9 @@
 .div {
-    height          : 250px;
-    width           : 250px;
-    background-color: rgb(19, 249, 249);
-    margin-left     : 200px;
-    margin-top: -40px;
+    height          : 350px;
+    width           : 350px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
 }
 
 .title {
