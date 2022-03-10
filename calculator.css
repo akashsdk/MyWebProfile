@@ -2,18 +2,18 @@
     height          : 350px;
     width           : 350px;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
-    display: flex;
+    justify-content : center;
+    display         : flex;
 }
 
 .title {
-    margin-bottom: 10px;
-    text-align   : center;
-    width        : 205px;
-    border-radius: 10px;
-    margin-top: 10px;
-    color        : green;
-    border       : solid black 2px;
+    margin-bottom   : 10px;
+    text-align      : center;
+    width           : 205px;
+    border-radius   : 10px;
+    margin-top      : 10px;
+    color           : green;
+    border          : solid black 2px;
     background-color: aquamarine;
 }
 
@@ -23,7 +23,8 @@ input[type="button"] {
     border          : solid black 2px;
     width           : 100%
 }
-input:hover{
+
+input:hover {
     background-color: rgb(46, 143, 253);
     color           : black;
     border          : solid black 2px;
@@ -37,37 +38,54 @@ input[type="text"] {
 }
 
 .maindiv {
-    height : auto;
-    margin : auto;
-    display: flex;
+    height          : auto;
+    margin          : auto;
+    display         : flex;
     background-color: blueviolet;
 }
 
-.tablediv{
-    height: 250px;
-    width: 250px;
+.tablediv {
+    height          : 250px;
+    width           : 250px;
     background-color: rgb(255, 255, 255);
 }
 
 .loader {
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid blue;
-    border-right: 16px solid green;
-    border-bottom: 16px solid red;
-    border-left: 16px solid pink;
-    width: 120px;
-    height: 120px;
+    border           : 16px solid #f3f3f3;
+    border-radius    : 50%;
+    border-top       : 16px solid blue;
+    border-right     : 16px solid green;
+    border-bottom    : 16px solid red;
+    border-left      : 16px solid pink;
+    width            : 120px;
+    height           : 120px;
     -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+    animation        : spin 2s linear infinite;
+    
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loder{
+    height: 300px;
+    width: 500px;
+    display: flex;
+}
