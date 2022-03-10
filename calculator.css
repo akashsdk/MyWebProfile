@@ -32,3 +32,9 @@ input[type="text"] {
     margin : auto;
     display: flex;
 }
+
+.tablediv{
+    height: 250px;
+    width: 250px;
+    background-color: bisque;
+}
