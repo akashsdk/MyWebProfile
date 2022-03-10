@@ -15,7 +15,7 @@
 }
 
 input[type="button"] {
-    background-color: green;
+    background-color: rgb(128, 236, 255);
     color           : black;
     border          : solid black 2px;
     width           : 100%
