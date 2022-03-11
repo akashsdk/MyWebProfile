@@ -5,6 +5,11 @@
 }
 .schend{
     height: 250px;
-    width: 750px;
+    width: 100%;
     background-color: beige;
+}
+.thrddiv{
+    height: 250px;
+    width: 100%;
+    background-color: blueviolet;
 }
