@@ -75,3 +75,10 @@ input:checked+.slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+.div1{
+  background-color: rgb(138, 250, 213);
+  height: 100px;
+  width: 400px;
+}
