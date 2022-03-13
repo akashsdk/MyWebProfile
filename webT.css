@@ -82,9 +82,3 @@ input:checked+.slider:before {
   height: 100px;
   width: 400px;
 }
-
-.diva{
-  height: 30px;
-  width: 100%;
-  background-color: beige;
-}
