@@ -8,9 +8,10 @@
     display: block;
     width: 400px;
     height: 400px;
-    background-color: rgb(115, 248, 248);
+    background-color: rgb(106, 247, 247);
     border-radius: 10px;
     padding-top: 60px;
+    
 }
 
 .input {
